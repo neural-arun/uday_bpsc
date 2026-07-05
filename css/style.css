@@ -350,12 +350,15 @@ a {
 .section {
   padding: 100px 0;
   background: var(--bg-section);
+}
+
+.section-fade {
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.8s ease;
 }
 
-.section-visible {
+.section-fade.section-visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -396,11 +399,7 @@ a {
 /* ===================== JOURNEY ===================== */
 
 .journey {
-  background: #0B1120;
-  opacity: 1 !important;
-  transform: none !important;
-  visibility: visible !important;
-  display: block !important;
+  background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-section) 50%, var(--bg-deep) 100%);
 }
 
 .timeline {

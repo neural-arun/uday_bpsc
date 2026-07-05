@@ -35,7 +35,7 @@ const observer = new IntersectionObserver((entries) => {
 timelineItems.forEach(item => observer.observe(item));
 
 // Section fade-in
-const sections = document.querySelectorAll('.section:not(.journey)');
+const sections = document.querySelectorAll('.section-fade');
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
