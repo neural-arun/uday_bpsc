@@ -396,9 +396,11 @@ a {
 /* ===================== JOURNEY ===================== */
 
 .journey {
-  background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-section) 50%, var(--bg-deep) 100%);
-  opacity: 1;
-  transform: none;
+  background: #0B1120;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  display: block !important;
 }
 
 .timeline {
